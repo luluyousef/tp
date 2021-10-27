@@ -26,7 +26,9 @@ public class Tag {
         checkArgument(isValidTagName(tagName), MESSAGE_CONSTRAINTS);
         this.tagName = tagName;
     }
-
+    public String getTagName() {
+        return tagName;
+    }
     /**
      * Returns true if a given string is a valid tag name.
      */
