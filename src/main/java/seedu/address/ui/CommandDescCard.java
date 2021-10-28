@@ -106,6 +106,14 @@ public class CommandDescCard extends UiPart<TitledPane> {
             this.description.setText("Lists down all the upcoming consultation events for the current day.");
             this.examples.setText("upcoming_events");
             break;
+
+        case TAG:
+                this.getRoot().setText("Tag Command");
+                this.format.setText("tag");
+                this.description.setText("Filters all events that have the specified tag(s) " +
+                        "and displays them as a list with index numbers.\n");
+                this.examples.setText("tag URGENT");
+                break;
         default:
             assert false : "CommandDescCard: Invalid Command";
         }

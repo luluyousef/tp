@@ -44,6 +44,7 @@ Action | Format | Examples
 **[List](#57-listing-all-consultation-events--list)** | `list` | -
 **[Display Next Event](#58-displaying-the-next-consultation-event--next_event)** | `next_event` | -
 **[List Upcoming Events](#59-listing-all-upcoming-events--upcoming_events)** | `upcoming_events` | -
+**[Filter List By Tag](#510-filtering-consultation-events-by-tag--tag)** | `tag KEYWORD [MORE_KEYWORDS]...` | `tag URGENT`
 **[View Command Summary Page](#510-viweing-the-command-summary-page--command_summary)** | `command_summary` | -
 **[Exit](#511-exiting-the-app--exit)** | `exit` | -
 
@@ -189,6 +190,19 @@ Format: `next_event`
 Lists down all the upcoming consultation events for the current day.
 
 Format: `upcoming_events`
+
+### 5.10 Filtering Consultation Events by Tag : `tag`
+Filters all events that have the specified tag(s) and displays them as a list with index numbers.
+
+Format: `tag KEYWORD [MORE_KEYWORDS]...`
+
+<div markdown="span" class="alert alert-primary">:bulb: **Tip**: The keywords are case-insensitive!
+</div>
+
+Example(s):
+* `tag URGENT`
+* `tag` supplementary CS2103T
+
 
 ### 5.10 Viewing the Command Summary Page: `command_summary`
 Opens a pop-up window with a Command Summary of all of DukePro(f)'s possible commands.

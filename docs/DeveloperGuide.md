@@ -192,6 +192,18 @@ The `NextEventCommand` class has one field timePredicate of type EventContainsCu
 The `NextEventCommand` utilizes the `updateFilteredEventList()` method in the `Model` class to return an updated filtered upcoming event that is filtered by the `timePredicate`.
 Next, it gets the first event in the filtered list using the overridden method `nextEventInTheList()` found in the `ModelManager` class.
 
+### FilterByTagCommand - Lulu
+#### Description
+The `FilterByTagCommand` class is a command that finds all events whose tags contain any of the specified keywords (case-insensitive) and displays them as a list with index numbers.
+
+#### Implementation
+The `FilterByTagCommand` class has one field tagPredicate of type TagContainsKeywordsPredicate.
+
+`TagContainsKeywordsPredicate` is a class that tests that an event's tag matches any of the keywords given.
+
+The `FilterByTagCommand` utilizes the `updateFilteredEventList()` method in the `Model` class to return an updated filtered event(s) list that have the tags specified.
+
+The list is filtered using the tagPredicate.
 
 ### Remark feature - Ruth
 
