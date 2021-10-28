@@ -44,7 +44,7 @@ Action | Format | Examples
 **[List](#57-listing-all-consultation-events--list)** | `list` | -
 **[Display Next Event](#58-displaying-the-next-consultation-event--next_event)** | `next_event` | -
 **[List Upcoming Events](#59-listing-all-upcoming-events--upcoming_events)** | `upcoming_events` | -
-**[Filter List By Tag](#510-filtering-consultation-events-by-tag--tag)** | `tag KEYWORD [MORE_KEYWORDS]...` | `tag URGENT`
+**[Filter Events By Tag](#510-filtering-consultation-events-by-tag--tag)** | `tag KEYWORD [MORE_KEYWORDS]...` | `tag URGENT`
 **[View Command Summary Page](#510-viweing-the-command-summary-page--command_summary)** | `command_summary` | -
 **[Exit](#511-exiting-the-app--exit)** | `exit` | -
 
