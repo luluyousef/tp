@@ -108,7 +108,7 @@ public class CommandDescCard extends UiPart<TitledPane> {
             break;
 
         case TAG:
-                this.getRoot().setText("Tag Command");
+                this.getRoot().setText("Filter By Tag Command");
                 this.format.setText("tag");
                 this.description.setText("Filters all events that have the specified tag(s) " +
                         "and displays them as a list with index numbers.\n");
