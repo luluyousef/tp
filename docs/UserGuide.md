@@ -181,7 +181,7 @@ Listed below are the commands for managing your consultations.
 Consultation events show the name, date, time (start and end), location, and additional details of the 
 consultation. Consultation events cannot overlap.
 
-### 5.1 Adding a Consultation Event : `add`
+#### 5.1 Adding a Consultation Event : `add`
 
 Adds a consultation event to Dukepro(f).
 
@@ -208,7 +208,7 @@ Example(s):
 * `tag/supplementary` will be shown as ![supplementary tag](images/supplementary tag.png)
 
 
-### 5.2 Deleting a Consultation Event : `delete`
+#### 5.2 Deleting a Consultation Event : `delete`
 
 Deletes a consultation event from DukePro(f) at the specified `INDEX`.
 
@@ -221,7 +221,7 @@ Format: `delete INDEX`
 Example(s):
 * `delete 1`
 
-### 5.3 Editing a Consultation Event : `edit`
+#### 5.3 Editing a Consultation Event : `edit`
 
 Edits the details of a consultation event from DukePro(f) at the specified `INDEX`.
 
@@ -237,24 +237,24 @@ Example(s):
 * `edit 2 n/Ruth t/0730-0830`
 * `edit 3 r/May have to switch to zoom`
 
-### 5.4 Listing all Consultation Events : `list`
+#### 5.4 Listing all Consultation Events : `list`
 Lists down all consultation events scheduled in DukePro(f).
 
 Format: `list`
 
-### 5.5 Displaying the next Consultation Event : `next_event`
+#### 5.5 Displaying the next Consultation Event : `next_event`
 Displays the next consultation event scheduled for the day in DukePro(f).
 
 Format: `next_event`
 
-### 5.6 Listing all Upcoming Events : `upcoming_events`
+#### 5.6 Listing all Upcoming Events : `upcoming_events`
 Lists down all the upcoming consultation events for the current day.
 
 **:information_source: This will not include the current ongoing consultation event.**<br>
 
 Format: `upcoming_events`
 
-### 5.7 Clearing all Consultation Events : `clear`
+#### 5.7 Clearing all Consultation Events : `clear`
 
 Clears all consultation events stored in DukePro(f).
 
@@ -264,7 +264,7 @@ careful when using this command!
 
 Format: `clear`
 
-### 5.8 Finding a Consultation Event : `find`
+#### 5.8 Finding a Consultation Event : `find`
 Finds all consultation events whose names contain any of the specified keywords and displays them as an indexed list.
 * Keywords are case-insensitive.
 
@@ -284,7 +284,7 @@ not `Jacob Rong`
 Example(s):
 * `find Jacob`
 
-### 5.9 Filtering Consultation Events By Tags : `filter_tag`
+#### 5.9 Filtering Consultation Events By Tags : `filter_tag`
 Finds all consultation events whose tags contain any of the specified tag names (case-insensitive) and displays them as 
 an indexed list.
 Format: `filter_tag TAG_NAME [MORE_TAG_NAMES]...`
@@ -301,7 +301,7 @@ Example(s):
   Filters any events that contain the tag `URGENT`
 
 
-### 5.10 Listing all Free Time Slots : `list_free`
+#### 5.10 Listing all Free Time Slots : `list_free`
 Lists down all free time slots in DukePro(f) from today until the last event or blocked slot.
 
 Format: `list_free`
@@ -313,7 +313,7 @@ Format: `list_free`
 Listed below are the commands for managing your blocked time slots.
 Blocked time slots ensure that you will not be able to add consultation events during those time slots.
 
-### 5.11 Adding a Blocked Time Slot : `block`
+#### 5.11 Adding a Blocked Time Slot : `block`
 Adds a blocked time slot to Dukepro(f).
 
 Format: `block d/DATE t/TIMESLOT`
@@ -322,7 +322,7 @@ Example(s):
 * `block d/2020-01-01 t/0800-0900`
 * `block d/2020-02-02 t/1000-1100`
 
-### 5.12 Deleting a Blocked Time Slot : `delete_blocked`
+#### 5.12 Deleting a Blocked Time Slot : `delete_blocked`
 Deletes a blocked time slot in DukePro(f) at the specified `INDEX`.
 
 Format: `delete_blocked INDEX`
@@ -330,7 +330,7 @@ Format: `delete_blocked INDEX`
 Example(s):
 * `delete_blocked 1`
 
-### 5.13 Listing all Blocked Time Slots : `list_blocked`
+#### 5.13 Listing all Blocked Time Slots : `list_blocked`
 Lists down all consultation events scheduled in DukePro(f).
 
 Format: `list_blocked`
@@ -341,19 +341,19 @@ Format: `list_blocked`
 ### Help Commands
 Listed below are the commands if you're stuck on how to use DukePro(f).
 
-### 5.14 Viewing help : `help`
+#### 5.14 Viewing help : `help`
 Opens a pop-up window with a link to DukePro(f)'s user guide.
 
 Format: `help`
 
-### 5.15 Viewing the Command Summary Page: `command_summary`
+#### 5.15 Viewing the Command Summary Page: `command_summary`
 Opens a pop-up window with a Command Summary of all of DukePro(f)'s possible commands.
 
 Format: `command_summary`
 <br>
 
 ***
-### 5.16: Exiting the app : `exit`
+#### 5.16: Exiting the app : `exit`
 
 Exits DukePro(f).
 
